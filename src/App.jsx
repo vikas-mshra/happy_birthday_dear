@@ -192,36 +192,47 @@ function App() {
                   } `
                 : ""
             }
-  ${
-    timeDifference.months > 0
-      ? `${timeDifference.months} Month${timeDifference.months > 1 ? "s" : ""} `
-      : ""
-  }
-  ${
-    timeDifference.days > 0
-      ? `${timeDifference.days} Day${timeDifference.days > 1 ? "s" : ""} `
-      : ""
-  }
-  ${
-    timeDifference.hours > 0
-      ? `${timeDifference.hours} Hour${timeDifference.hours > 1 ? "s" : ""} `
-      : ""
-  }
-  ${
-    timeDifference.minutes > 0
-      ? `${timeDifference.minutes} Minute${
-          timeDifference.minutes > 1 ? "s" : ""
-        } `
-      : ""
-  }
-  ${
-    timeDifference.seconds > 0
-      ? `${timeDifference.seconds} Second${
-          timeDifference.seconds > 1 ? "s" : ""
-        }`
-      : ""
-  }`}
+          ${
+            timeDifference.months > 0
+              ? `${timeDifference.months} Month${
+                  timeDifference.months > 1 ? "s" : ""
+                } `
+              : ""
+          }
+          ${
+            timeDifference.days > 0
+              ? `${timeDifference.days} Day${
+                  timeDifference.days > 1 ? "s" : ""
+                } `
+              : ""
+          }
+          ${
+            timeDifference.hours > 0
+              ? `${timeDifference.hours} Hour${
+                  timeDifference.hours > 1 ? "s" : ""
+                } `
+              : ""
+          }
+          ${
+            timeDifference.minutes > 0
+              ? `${timeDifference.minutes} Minute${
+                  timeDifference.minutes > 1 ? "s" : ""
+                } `
+              : ""
+          }
+          ${
+            timeDifference.seconds > 0
+              ? `${timeDifference.seconds} Second${
+                  timeDifference.seconds > 1 ? "s" : ""
+                }`
+              : ""
+          }`}
           </h1>
+          <i className="text-white text-4xl">
+            You can change the date in the code to change the timer since the
+            first time you saw the person and customize your message{" "}
+          </i>{" "}
+          <br />
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           convallis tempor felis quis tempus. Curabitur semper consectetur quam.
           Nullam rutrum venenatis arcu, vel suscipit sapien vulputate in.
@@ -252,7 +263,7 @@ function App() {
       bg-gradient-to-b from-red-300 via-red-200 to-orange-300"
       >
         <h1 className="text-xl md:text-2xl font-bold">
-          I have bring the best cake in town you will ever find, just for you!
+          I have brought the best cake in town you will ever find, just for you!
           Blow the candle and{" "}
           <span
             className="underline cursor-pointer"
@@ -260,7 +271,7 @@ function App() {
           >
             make a wish
           </span>{" "}
-          [HER_NAME]....It's your birthday
+          [NAME]....It's your birthday
         </h1>
         {isPlaying?.birthday && (
           <div className="flex flex-col items-center">
@@ -272,7 +283,7 @@ function App() {
             ) : (
               <>
                 <textarea
-                  placeholder="Make a wish [HER_NAME], whatever you want and god will grant it"
+                  placeholder="Make a wish [NAME], whatever you want and god will grant it"
                   value={wish}
                   onChange={(event) => setWish(event.target.value)}
                   className="h-[80px] w-[300px] md:w-[400px] box-border rounded bg-[#f8f8f8] text-base resize-none px-5 py-3 border-2 border-solid border-[#ccc]"
@@ -303,13 +314,13 @@ function App() {
       }`}
       >
         <p className="text-sm md:text-2xl text-white text-justify w-full max-w-[1000px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          tristique non neque vitae malesuada. Donec id est ante. Morbi finibus
-          mattis ex in dictum. Nunc sed dolor viverra, euismod nulla vitae,
-          ultricies massa. Suspendisse sit amet turpis vitae ex congue posuere.
-          Aenean facilisis dictum pulvinar. Pellentesque pharetra tristique
-          mattis. Nullam commodo posuere varius. Suspendisse potenti. Aliquam ac
-          laoreet ipsum.
+          [Your personalized message] Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Donec tristique non neque vitae malesuada. Donec id
+          est ante. Morbi finibus mattis ex in dictum. Nunc sed dolor viverra,
+          euismod nulla vitae, ultricies massa. Suspendisse sit amet turpis
+          vitae ex congue posuere. Aenean facilisis dictum pulvinar.
+          Pellentesque pharetra tristique mattis. Nullam commodo posuere varius.
+          Suspendisse potenti. Aliquam ac laoreet ipsum.
         </p>
         <p className="text-sm md:text-2xl text-white text-justify w-full max-w-[1000px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -325,7 +336,7 @@ function App() {
           >
             Bye
           </span>{" "}
-          [HER_NAME]
+          [NAME]
         </p>
         <p className="text-lg">- Vikas</p>
         {isPlaying?.baatein && (
