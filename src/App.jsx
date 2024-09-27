@@ -149,8 +149,7 @@ function App() {
       bg-gradient-to-b from-white via-white to-orange-100"
       >
         <h1 className="text-lg md:text-2xl font-bold text-center">
-          after long long time 😍, I finally have the reason to talk to you 😁
-          I'm so happy 🥳
+          [ANY WELCOME MESSAGE]
         </h1>
         <img
           src="/images/welcome_face.jpeg"
@@ -223,19 +222,18 @@ function App() {
       : ""
   }`}
           </h1>
-          since the first time I saw you 😍 (and I want to keep seeing you till
-          my last breath) on the last bench in the class and I was so amazed by
-          you ki koi itna khoobsurat kaise ho skta{" "}
+          from the moment I first saw you in the crowded cafeteria 😍 (and I
+          hope to keep seeing you for countless days to come), I was captivated.
+          You were sitting by the window, laughing with your friends, and I
+          couldn't help but wonder how someone could radiate such joy. I fell
+          for you right then and there, even though we were strangers. The way
+          your eyes crinkled when you smiled 💘 it was absolutely mesmerizing ❤️
           <span
             className="underline cursor-pointer"
             onClick={toggleKhoobsuratPlay}
           >
-            hai
+            A Song for you
           </span>
-          , I fell for you in that very moment and the way that you used to
-          smile even when we both didn't know each other... 💘 it was so
-          beautiful ❤️ And that day as well, when [some message] I wish I could
-          pause that moment forever... hahaha!
         </p>
       </section>
 
@@ -317,7 +315,7 @@ function App() {
           >
             Bye
           </span>{" "}
-          [HER_NAME], miss you so much 🤗😅
+          [HER_NAME]
         </p>
         <p className="text-lg">- Vikas</p>
         {isPlaying?.baatein && (
