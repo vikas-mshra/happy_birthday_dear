@@ -1,0 +1,46 @@
+{
+  "name": "happy_birthday_dear",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A React-based web application for creating and sending personalized birthday greetings.",
+  "author": "Vikas Mishra <vikas.mishra0796@gmail.com> (https://vikas-mishra-portfolio.netlify.app/)",
+  "license": "MIT",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
