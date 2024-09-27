@@ -222,12 +222,22 @@ function App() {
       : ""
   }`}
           </h1>
-          from the moment I first saw you in the crowded cafeteria 😍 (and I
-          hope to keep seeing you for countless days to come), I was captivated.
-          You were sitting by the window, laughing with your friends, and I
-          couldn't help but wonder how someone could radiate such joy. I fell
-          for you right then and there, even though we were strangers. The way
-          your eyes crinkled when you smiled 💘 it was absolutely mesmerizing ❤️
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          convallis tempor felis quis tempus. Curabitur semper consectetur quam.
+          Nullam rutrum venenatis arcu, vel suscipit sapien vulputate in.
+          Phasellus eu odio ac est venenatis dictum. Phasellus sagittis tempus
+          pellentesque. Morbi quis nibh scelerisque augue eleifend mollis eget a
+          neque. Sed congue purus scelerisque lectus finibus porttitor. Aenean
+          in erat felis. Phasellus vestibulum dui id blandit pretium. Aenean
+          blandit dui et maximus fringilla. Etiam non convallis odio, ac
+          molestie erat. Mauris ac sapien dictum, pharetra nulla et, scelerisque
+          neque. Curabitur cursus ultrices varius. Fusce non massa ex. Quisque
+          dapibus, libero sed aliquet fringilla, justo erat accumsan tellus,
+          dictum dignissim ex orci ut nunc. Morbi mattis sapien porta enim
+          fermentum convallis. Praesent in tellus finibus, cursus orci non,
+          semper urna. Nulla vitae nisi leo. Maecenas bibendum tristique orci
+          eget consequat. Nulla mattis faucibus dignissim. Sed tempor luctus
+          elit at lobortis.&nbsp;
           <span
             className="underline cursor-pointer"
             onClick={toggleKhoobsuratPlay}
