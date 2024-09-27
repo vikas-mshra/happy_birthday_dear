@@ -2,6 +2,11 @@
 
 A React-based application for creating personalized birthday greetings.
 
+## Live Demo
+
+Experience the Happy Birthday Dear app in action:
+https://happpy-birthday-dear.netlify.app
+
 ## About
 
 Happy Birthday Dear is a web application that allows users to create and send customized birthday messages. Built with React, this project aims to make birthday celebrations more special and interactive.

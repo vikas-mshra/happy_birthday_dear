@@ -1,4 +1,3 @@
-import emailjs from "@emailjs/browser";
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
