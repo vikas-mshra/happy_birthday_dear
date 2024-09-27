@@ -228,27 +228,8 @@ function App() {
               : ""
           }`}
           </h1>
-          <i className="text-white text-4xl">
-            You can change the date in the code to change the timer since the
-            first time you saw the person and customize your message{" "}
-          </i>{" "}
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          convallis tempor felis quis tempus. Curabitur semper consectetur quam.
-          Nullam rutrum venenatis arcu, vel suscipit sapien vulputate in.
-          Phasellus eu odio ac est venenatis dictum. Phasellus sagittis tempus
-          pellentesque. Morbi quis nibh scelerisque augue eleifend mollis eget a
-          neque. Sed congue purus scelerisque lectus finibus porttitor. Aenean
-          in erat felis. Phasellus vestibulum dui id blandit pretium. Aenean
-          blandit dui et maximus fringilla. Etiam non convallis odio, ac
-          molestie erat. Mauris ac sapien dictum, pharetra nulla et, scelerisque
-          neque. Curabitur cursus ultrices varius. Fusce non massa ex. Quisque
-          dapibus, libero sed aliquet fringilla, justo erat accumsan tellus,
-          dictum dignissim ex orci ut nunc. Morbi mattis sapien porta enim
-          fermentum convallis. Praesent in tellus finibus, cursus orci non,
-          semper urna. Nulla vitae nisi leo. Maecenas bibendum tristique orci
-          eget consequat. Nulla mattis faucibus dignissim. Sed tempor luctus
-          elit at lobortis.&nbsp;
+          since the first time, I saw you....you own personalized message will
+          come here.&nbsp;
           <span
             className="underline cursor-pointer"
             onClick={toggleKhoobsuratPlay}
@@ -314,27 +295,21 @@ function App() {
       }`}
       >
         <p className="text-sm md:text-2xl text-white text-justify w-full max-w-[1000px]">
-          [Your personalized message] Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Donec tristique non neque vitae malesuada. Donec id
-          est ante. Morbi finibus mattis ex in dictum. Nunc sed dolor viverra,
-          euismod nulla vitae, ultricies massa. Suspendisse sit amet turpis
-          vitae ex congue posuere. Aenean facilisis dictum pulvinar.
-          Pellentesque pharetra tristique mattis. Nullam commodo posuere varius.
-          Suspendisse potenti. Aliquam ac laoreet ipsum.
+          [Your personalized message section]
         </p>
         <p className="text-sm md:text-2xl text-white text-justify w-full max-w-[1000px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          tristique non neque vitae malesuada. Donec id est ante. Morbi finibus
-          mattis ex in dictum. Nunc sed dolor viverra, euismod nulla vitae,
-          ultricies massa. Suspendisse sit amet turpis vitae ex congue posuere.
-          Aenean facilisis dictum pulvinar. Pellentesque pharetra tristique
-          mattis. Nullam commodo posuere varius. Suspendisse potenti. Aliquam ac
-          laoreet ipsum.
+          [Your personalized message section] Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Donec tristique non neque vitae
+          malesuada. Donec id est ante. Morbi finibus mattis ex in dictum. Nunc
+          sed dolor viverra, euismod nulla vitae, ultricies massa. Suspendisse
+          sit amet turpis vitae ex congue posuere. Aenean facilisis dictum
+          pulvinar. Pellentesque pharetra tristique mattis. Nullam commodo
+          posuere varius. Suspendisse potenti. Aliquam ac laoreet ipsum.
           <span
-            className="cursor-pointer underline"
+            className="cursor-pointer underline text-black"
             onClick={toggleBaateinPlay}
           >
-            Bye
+            Bye (some music and animation on click of it)
           </span>{" "}
           [NAME]
         </p>
